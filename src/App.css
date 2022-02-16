@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.myNavbar {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.usernameInput {
+  text-transform: uppercase;
+}
+
