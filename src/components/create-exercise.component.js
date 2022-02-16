@@ -25,7 +25,7 @@ export default class CreateExercise extends Component {
 
   componentDidMount() {
     axios
-      .get("http://34.124.158.95/users")
+      .get("https://34.124.158.95/users")
       .then((res) => {
         this.setState({ users: res.data });
       })
@@ -73,7 +73,7 @@ export default class CreateExercise extends Component {
     console.log(exercise);
 
     axios
-      .post("http://34.124.158.95/exercises/add", exercise)
+      .post("https://34.124.158.95/exercises/add", exercise)
       .then((res) => {
         console.log(res);
       })
