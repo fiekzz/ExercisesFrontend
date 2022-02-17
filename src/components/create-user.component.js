@@ -9,7 +9,7 @@ const CreateUsers = () => {
     e.preventDefault();
     console.log(userName);
     axios
-      .post("https://34.124.158.95/users/add", {
+      .post("https://34.87.3.135/users/add", {
         username: userName,
       })
       .then((res) => {

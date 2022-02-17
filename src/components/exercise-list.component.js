@@ -7,7 +7,7 @@ const Exercises = () => {
 
   useEffect(() => {
     axios
-      .get("https://34.124.158.95/exercises")
+      .get("https://34.87.3.135/exercises")
       .then((res) => {
         setUsers(res.data);
       })
