@@ -76,6 +76,7 @@ export default class CreateExercise extends Component {
       .post("https://34.124.158.95/exercises/add", exercise)
       .then((res) => {
         console.log(res);
+        alert(res.data)
       })
       .catch((err) => {
         console.log(err);
